@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="S'engager avec le PADIESE : Faire un don, devenir partenaire, bénévolat.">
+    <title>S'engager | PADIESE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <style>
+        .internal-header {
+            background-color: var(--text-main);
+            padding: 120px 0 60px;
+            text-align: center;
+        }
+        .internal-header h1 {
+            color: white;
+            font-size: 3rem;
+            font-weight: 800;
+        }
+        .navbar {
+            background-color: var(--text-main) !important;
+            padding: 15px 0 !important;
+            box-shadow: var(--shadow-md) !important;
+            border-bottom: none !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">PAD<span>IESE</span></a>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">À propos</a>
+                <a href="actions.html">Nos Actions</a>
+                <a href="sengager.html" style="color: white;">S'engager</a>
+                <a href="sinformer.html">S'informer</a>
+                <a href="contact.html?sujet=don" class="btn btn-primary">Faire un don</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="internal-header">
+            <div class="container">
+                <h1>S'<span class="yellow-underline-text" style="color: white;">engager</span></h1>
+            </div>
+        </div>
+
+        <!-- S'engager Intro -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-title text-center reveal">
+                    <h2>Devenez acteur du changement au Tchad</h2>
+                    <p style="margin-bottom: 2rem;">Chaque contribution, qu'elle soit financière, matérielle ou humaine, nous permet de renforcer nos actions et d'accompagner davantage de communautés.</p>
+                </div>
+                
+                <div class="grid-3 mission-cards">
+                    <!-- Don -->
+                    <div class="card reveal delay-1" style="text-align: left;">
+                        <h3 style="color: var(--primary-color);">Faire un don</h3>
+                        <p style="margin-bottom: 20px;">Soutenez financièrement nos projets pour l'éducation, la santé et l'environnement. Vos dons sont directement investis sur le terrain au profit des populations bénéficiaires.</p>
+                        <a href="contact.html?sujet=don" class="btn btn-primary" style="display: block; text-align: center;">Je fais un don</a>
+                    </div>
+                    <!-- Partenariat -->
+                    <div class="card reveal delay-2" style="text-align: left;">
+                        <h3 style="color: var(--primary-color);">Devenir Partenaire</h3>
+                        <p style="margin-bottom: 20px;">Vous êtes une entreprise ou une institution ? Associez votre démarche RSE aux actions du PADIESE par un partenariat stratégique ou du mécénat.</p>
+                        <a href="contact.html?sujet=partenariat" class="btn btn-secondary" style="display: block; text-align: center; border-color: var(--primary-color); color: var(--primary-color) !important;">Nous contacter</a>
+                    </div>
+                    <!-- Bénévolat -->
+                    <div class="card reveal delay-3" style="text-align: left;">
+                        <h3 style="color: var(--primary-color);">Nous rejoindre</h3>
+                        <p style="margin-bottom: 20px;">Mettez vos compétences au service d'une cause solidaire. Le PADIESE accueille régulièrement des bénévoles et stagiaires motivés pour nous appuyer.</p>
+                        <a href="contact.html?sujet=benevolat" class="btn btn-secondary" style="display: block; text-align: center; border-color: var(--primary-color); color: var(--primary-color) !important;">Postuler</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo footer-logo">PAD<span>IESE</span></a>
+                <p>Partenariat pour l’Appui et le Développement des Innovations en Éducation, Santé et Environnement. ONG Tchadienne de Développement.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="actions.html">Nos Actions</a></li>
+                    <li><a href="sengager.html">S'engager</a></li>
+                    <li><a href="sinformer.html">S'informer</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contactez-nous</h4>
+                <div style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary-color); flex-shrink: 0; margin-top: 3px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <p style="margin-bottom: 0;">Quartier MOURSAL, 6e Arrondissement Municipal, Boulevard SAO, Rue 1362, Carré 10, Porte 1122</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary-color); flex-shrink: 0;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <p style="margin-bottom: 0;">+235 99 25 22 81</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary-color); flex-shrink: 0;"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <p style="margin-bottom: 0;">info@padiese.org</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 PADIESE. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

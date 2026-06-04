@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les actions et projets récents du PADIESE.">
+    <title>Nos Actions | PADIESE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <style>
+        /* Specific header for internal pages */
+        .internal-header {
+            background-color: var(--text-main);
+            padding: 120px 0 60px;
+            text-align: center;
+        }
+        .internal-header h1 {
+            color: white;
+            font-size: 3rem;
+            font-weight: 800;
+        }
+        .navbar {
+            background-color: var(--text-main) !important;
+            padding: 15px 0 !important;
+            box-shadow: var(--shadow-md) !important;
+            border-bottom: none !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">PAD<span>IESE</span></a>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">À propos</a>
+                <a href="actions.html" style="color: white;">Nos Actions</a>
+                <a href="sengager.html">S'engager</a>
+                <a href="sinformer.html">S'informer</a>
+                <a href="contact.html?sujet=don" class="btn btn-primary">Faire un don</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="internal-header">
+            <div class="container">
+                <h1>Nos <span class="yellow-underline-text" style="color: white;">Actions</span></h1>
+            </div>
+        </div>
+
+        <!-- Actions Section -->
+        <section id="actions" class="actions section-padding" style="background-color: var(--surface-color);">
+            <div class="container">
+                <div class="section-title text-center reveal">
+                    <h2>Découvrez nos interventions sur le terrain</h2>
+                </div>
+
+                <!-- Map Section placed at the top of actions -->
+                <div class="reveal" style="border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid rgba(0,0,0,0.05); height: auto; position: relative; z-index: 2; margin-bottom: 60px; text-align: center; background-color: var(--bg-color); padding: 40px 20px;">
+                    <img src="images/tchad_3d_map.png" alt="Carte 3D des grandes régions du Tchad" style="width: 100%; max-width: 700px; max-height: 400px; object-fit: contain; display: inline-block; margin: 0 auto;">
+                </div>
+
+                <div class="action-card reveal delay-1" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; background: var(--bg-color); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid rgba(0,0,0,0.05);">
+                    <div style="flex: 1; min-width: 300px; padding: 40px;">
+                        <span style="display: inline-block; padding: 5px 15px; background-color: rgba(13, 148, 136, 0.1); color: var(--primary-color); border-radius: 50px; font-weight: 600; font-size: 0.85rem; margin-bottom: 15px;">31 Octobre 2023</span>
+                        <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Campagne de sensibilisation à l'alphabétisation</h3>
+                        <p style="margin-bottom: 15px; color: var(--text-muted);">Le PADIESE a participé aux côtés de la coalition COSENF/T à une séance de sensibilisation des jeunes et adultes hors du système éducatif, dans la salle multimédia de l'ONAMA.</p>
+                        <p style="margin-bottom: 15px; color: var(--text-muted);"><strong>Au programme :</strong> sketchs mettant en exergue les bienfaits de l'éducation et de l'alphabétisation, et jeux concours. Cette journée a été organisée en collaboration avec l'Université Populaire (UP), le réseau des journalistes tchadiens pour la nutrition et le Ministère de l'Éducation Nationale et de la promotion civique.</p>
+                        <p style="color: var(--text-muted);"><strong>Centres participants (N'Djamena) :</strong> CEBNF de Ndjari, Association AlNadjah, Centre d'alphabétisation de Walia Goumna, Centre des femmes d'Amtoukoui.</p>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider">
+                            <img src="images/485013255_989605013367758_7354269931741032101_n.jpg" alt="Sensibilisation">
+                            <img src="images/485305815_989605136701079_8684277413703863803_n.jpg" alt="Sensibilisation">
+                            <img src="images/485697113_989605173367742_6381589325473600840_n.jpg" alt="Sensibilisation">
+                        </div>
+                        <button class="slider-btn prev">❮</button>
+                        <button class="slider-btn next">❯</button>
+                        <div class="slider-dots"></div>
+                    </div>
+                </div>
+
+                <div class="action-card reveal delay-2" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; background: var(--bg-color); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid rgba(0,0,0,0.05); margin-top: 40px; flex-direction: row-reverse;">
+                    <div style="flex: 1; min-width: 300px; padding: 40px;">
+                        <span style="display: inline-block; padding: 5px 15px; background-color: rgba(13, 148, 136, 0.1); color: var(--primary-color); border-radius: 50px; font-weight: 600; font-size: 0.85rem; margin-bottom: 15px;">Projet ADELAC</span>
+                        <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Ouverture de 7 centres d'alphabétisation</h3>
+                        <p style="margin-bottom: 15px; color: var(--text-muted);">Le village de Taou Kriou (Canton Ngarangou, Département de Mamdi au Lac Tchad) a abrité la cérémonie d'ouverture de 7 centres d'alphabétisation dans le cadre du Projet ADELAC.</p>
+                        <p style="margin-bottom: 15px; color: var(--text-muted);"><strong>Présence officielle :</strong> La cérémonie a été présidée par la représentante du Délégué de l'Éducation Nationale de la province du Lac, accompagnée de l'IDEN de Mamdi, du SAENF et du SSAENF. Étaient également présents sa majesté le chef de canton de Ngarangou, le chef de village de Taou Kriou, ainsi que les représentants des ONG membres du consortium.</p>
+                        <p style="color: var(--text-muted);">Quatre interventions ont marqué cette journée : le mot du chef de village, celui du chef de Base Padiese Bol, l'intervention du Chef de canton, et le discours d'ouverture de la représentante de la DPEN du Lac.</p>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider">
+                            <img src="images/472747011_986457500179400_1926579010081023809_n.jpg" alt="Projet ADELAC">
+                            <img src="images/472739282_986457443512739_3037361692169255088_n.jpg" alt="Projet ADELAC">
+                            <img src="images/472925364_986457406846076_5430325169342213987_n.jpg" alt="Projet ADELAC">
+                            <img src="images/472846403_986457560179394_4490213305710777550_n (1).jpg" alt="Projet ADELAC">
+                        </div>
+                        <button class="slider-btn prev">❮</button>
+                        <button class="slider-btn next">❯</button>
+                        <div class="slider-dots"></div>
+                    </div>
+                </div>
+
+                <div class="action-card reveal delay-3" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; background: var(--bg-color); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid rgba(0,0,0,0.05); margin-top: 40px;">
+                    <div style="flex: 1; min-width: 300px; padding: 40px;">
+                        <span style="display: inline-block; padding: 5px 15px; background-color: rgba(13, 148, 136, 0.1); color: var(--primary-color); border-radius: 50px; font-weight: 600; font-size: 0.85rem; margin-bottom: 15px;">Formation Professionnelle (ProQEB)</span>
+                        <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Formations aux métiers à Danamadji</h3>
+                        <p style="margin-bottom: 15px; color: var(--text-muted);">Pour contribuer à l'atteinte de l'objectif 4 des ODD, l'antenne PADIESE du Moyen Chari a lancé une série de formations professionnelles pour les apprenants des Centres d'alphabétisation et des CEBNF.</p>
+                        <p style="margin-bottom: 15px; color: var(--text-muted);"><strong>Métiers enseignés :</strong> Maraîchage, Apiculture, Fonderie, Élevage de petits ruminants, Maintenance d'engins à deux roues, Menuiserie bois, et Transformation de produits locaux.</p>
+                        <p style="color: var(--text-muted);"><strong>Impact :</strong> 400 adultes et 149 jeunes formés grâce aux financements de la DDC et de l'AFD. L'Espace d'Éducation et Formation Professionnelle (EEFP) de Danamadji dispose désormais d'un plateau technique complet pour la Grande Sido.</p>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider">
+                            <img src="images/485502009_990600739934852_8724222637666242627_n.jpg" alt="Formation métiers">
+                            <img src="images/485402997_990600936601499_1694265373567984217_n.jpg" alt="Formation métiers">
+                            <img src="images/485802787_990600963268163_7182047458858406167_n.jpg" alt="Formation métiers">
+                            <img src="images/485133378_990600979934828_8913807341692682077_n.jpg" alt="Formation métiers">
+                        </div>
+                        <button class="slider-btn prev">❮</button>
+                        <button class="slider-btn next">❯</button>
+                        <div class="slider-dots"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo footer-logo">PAD<span>IESE</span></a>
+                <p>Partenariat pour l’Appui et le Développement des Innovations en Éducation, Santé et Environnement. ONG Tchadienne de Développement.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="actions.html">Nos Actions</a></li>
+                    <li><a href="sengager.html">S'engager</a></li>
+                    <li><a href="sinformer.html">S'informer</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contactez-nous</h4>
+                <div style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary-color); flex-shrink: 0; margin-top: 3px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <p style="margin-bottom: 0;">Quartier MOURSAL, 6e Arrondissement Municipal, Boulevard SAO, Rue 1362, Carré 10, Porte 1122</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary-color); flex-shrink: 0;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <p style="margin-bottom: 0;">+235 99 25 22 81</p>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary-color); flex-shrink: 0;"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <p style="margin-bottom: 0;">info@padiese.org</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 PADIESE. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
